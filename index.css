@@ -87,7 +87,7 @@ a:hover{
 h1 {
 	font-family: 'Alex Brush', cursive;
 	font-size: 2.5em;
-	margin: 1% 0 0 0;
+	margin: 1% 0 1% 0;
 }
 
 h2 {
@@ -340,7 +340,6 @@ nav {
 /*     contact      */
 #section_five h3{
 	padding: 2% 5% 0% 5%;
-    line-height: 10px;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -365,7 +364,7 @@ nav {
 }
 
 #section_five .container_contact {
-	padding: 0 10% 3% 10%;
+	padding: 0 5% 3% 5%;
 }
 
 #section_five #contact {
@@ -398,7 +397,7 @@ nav {
 
 #section_five #champ_message{
 	width: 100%;
-	height: 200px;
+	height: 120px;
 	padding: 5px;
 	background-color: #b3b3b3;
     border: 1px solid #333333;
@@ -406,8 +405,8 @@ nav {
 }
 
 #section_five #submit {
-	width: 150px;
-	height: 50px;
+	width: 130px;
+	height: 40px;
 	border-radius: 5px;
 	border: 1px solid #333333;
 	background-color: #6aa84f;
@@ -628,18 +627,18 @@ footer #copyright {
 		display: flex;
     	justify-content: space-between;
     	width: 100%;
-    	padding: 0 0 3% 10%;
+    	padding: 0 0 2% 10%;
 	}
 
 	#section_five #adresse {
-    	width: 35%;
-    	padding-top:120px;
+    	width: 40%;
+    	margin-top: 10%;
     	text-align: left;
 	}
 
 	#section_five #contact {
 		align-items: start;
-		width: 80%;
+		width: 90%;
 	}
 
 	#section_five #contact h2 {
@@ -653,7 +652,7 @@ footer #copyright {
 	}
 
 	.container_formulaire p {
-		width: 31%;
+		width: 30%;
 	}
 
 	#contact .message {
