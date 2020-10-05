@@ -86,8 +86,8 @@ a:hover{
 /*polices*/
 h1 {
 	font-family: 'Alex Brush', cursive;
-	font-size: 38px;
-	font-weight: normal;
+	font-size: 2.5em;
+	margin: 1% 0 0 0;
 }
 
 h2 {
@@ -111,7 +111,7 @@ header {
 	width:100%;
 	display: flex;
 	justify-content: center;
-	height: 150px;
+	height: 80px;
 	margin-top:-8px;
 	background-color:#274e13;
 }
@@ -119,8 +119,7 @@ header {
 
 /*     Logo      */
 #logo img{
-	height:270px;
-	margin-top: -35px;
+	height:160px;
 }
 
 
@@ -230,17 +229,19 @@ nav {
 #section_four .title {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	height: 93px;
-    margin-top: -18px;
-    margin-bottom: 0;
+	height: 90px;
+    margin-top: -15px;
 	padding: 0 5% 0 5%;
 	background-color:#333333;
 	color: #ffffff;
 }
 
 #section_four .descr{
-	margin-top: -45px;
+	margin-top: 0px;
+}
+
+#section_four .h1{
+	text-align: left;
 }
 
 /*     articles      */
@@ -266,7 +267,7 @@ nav {
 
 /*     avis client    */
 #avis_client h1{
-    height: 20px;
+    height: 30px;
     padding: 0 5% 0 5%;
 	background-color: transparent;
 	color: #333333;
@@ -321,8 +322,7 @@ nav {
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 93px;
-	margin-top: -18px;
+	height: 50px;
 	padding:0% 5% 0% 5%;
 	background-color:#6aa84f;
 	color:#ffffff
@@ -333,8 +333,8 @@ nav {
 }
 
 #section_five .title img{
-	width:70%;
-	padding-left:25px;
+	width:25%;
+	padding-left:75%;
 }
 
 /*     contact      */
@@ -535,16 +535,16 @@ footer #copyright {
 	header {
 		justify-content: space-between;
 		align-items: center;
-		height:100px;
+		height: 80px;
 	}
 
 	#logo {
-		padding-top: 70px;
+		padding-top: 3%;
 		padding-left: 3%;
 	}
 
 	#logo img{
-		height:200px;
+		height:160px;
 		border: none;
 	}
 
@@ -599,9 +599,9 @@ footer #copyright {
 	}
 
 	#section_four .reseaux img {
-		opacity: 0.9;
-  	  width: 50px;
-  	  height: 50px;
+	  opacity: 0.9;
+  	  width: 30px;
+  	  height: 30px;
 	}
 
 	#avis_client .container_avis {
@@ -615,7 +615,7 @@ footer #copyright {
 	}
 
 	#avis_client p {
-		width: 57%;
+		width: 55%;
     	margin: 0;
 	}
 
